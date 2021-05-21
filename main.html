@@ -9,7 +9,34 @@
   <body>
     <div class="App">
       <h2>DosiMetter</h2>
-      <div class="aplication"></div>
+      <div class="aplication">
+        <div class="input">
+          <label class="label" for="drug"> Medicine </label>
+          <input type="list" />
+
+          <label class="label" for="drug"> Age</label>
+          <select>
+            <option value="Under 16">Under 16</option>
+            <option value="16 to 25">16 to 25</option>
+            <option value="26 to 40">26 to 40</option>
+            <option value="40 to 60">40 to 60</option>
+            <option value="Over 60">Over 60</option>
+          </select>
+
+          <div class="gender">
+            <label class="label" for="gender"> Gender</label>
+            <input type="Radio" name="Gender" value="Male" />Male
+            <input type="Radio" name="Gender" value="Female" />Female
+          </div>
+
+          <label class="label" for="drug"> Weight </label>
+          <input type="number" placeholder="Kg" />
+
+          <label class="label" for="drug"> Height</label>
+          <input type="number" placeholder="Cm" />
+        </div>
+        <button type="submit">Calculate</button>
+      </div>
     </div>
   </body>
 </html>
