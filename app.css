@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+
+  .aplication{
+width: 100%;
+background-color: aqua;
+height: 680px;
+text-align: center;
+position: relative;
+text-decoration: none;
+justify-content: center;
+
+  }
+  
+  .aplication h2{
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-bottom: 30px;
+      font-size: 50px;
+  }
+
+  .app-box{
+ width: 400px;
+ height: 400px;
+ background-color: blue;
+ position:absolute;
+text-align: center;
+justify-content: center;
+border-radius: 4%;
+margin-left: 20px;
+
+  }
+
+  .lists{
+text-align: center;
+    width: 300px;
+    height: 300px;
+    /* display:block; */
+    position:relative;
+    background-color: brown;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 5%;
+
+  }
+
+  .list{
+display: block;
+/* margin-top: 20px; */
+padding: 20px;
+  }
+
+  .btn{
+      margin-top: 5px;
+      width: 70px;
+      height: 30px;
+      background-color: chartreuse;
+      border-radius: 5px;
+  }
