@@ -1,3 +1,12 @@
+@media screen and (max-width:600px){
+}
+.aplication{
+width: auto;
+height: auto;
+margin:auto;
+padding: auto;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -61,4 +70,37 @@ padding: 20px;
       height: 30px;
       background-color: chartreuse;
       border-radius: 5px;
+      justify-content: space-evenly;
+  }
+
+
+  .result{
+width: 400px;
+height: 400px;
+display: block;
+background-color: red;
+position: relative;
+margin-left: 500px;
+margin-top: -340px;
+border-radius: 5%;
+
+  }
+
+  .result-box{
+
+    width: 340px;
+    height: 340px;
+    background-color: whitesmoke;
+    position: relative;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 5%;
+    text-align: center;
+  }
+
+  .result-box p{
+text-align: center;
+padding-top: 20px;
+
   }
